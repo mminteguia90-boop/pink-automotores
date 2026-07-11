@@ -158,3 +158,37 @@ footer {
 .whatsapp-flotante:hover {
     transform: scale(1.05);
 }
+.financiacion {
+    background: #151515;
+    margin: 40px 20px;
+    padding: 35px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255,20,147,0.25);
+}
+
+.financiacion h2 {
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+.financiacion p {
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.financiacion a {
+    display: inline-block;
+    background: #ff1493;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.financiacion a:hover {
+    background: white;
+    color: #ff1493;
+}
