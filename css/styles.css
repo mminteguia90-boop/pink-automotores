@@ -1,106 +1,85 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preguntas Frecuentes | Pink Automotores</title>
 
-body{
-    background:#111;
-    color:#fff;
-}
+<link rel="stylesheet" href="css/styles.css">
 
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 8%;
-    background:#000;
-}
+</head>
 
-header h1{
-    color:#ff4fa3;
-}
+<body>
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    transition:.3s;
-}
+<header>
 
-nav a:hover{
-    color:#ff4fa3;
-}
+<h1>Pink Automotores</h1>
 
-.hero{
-    text-align:center;
-    padding:100px 20px;
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
-    url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80');
-    background-size:cover;
-    background-position:center;
-}
+<nav>
 
-.hero h2{
-    font-size:48px;
-    margin-bottom:20px;
-}
+<a href="index.html">Inicio</a>
+<a href="vehiculos.html">Vehículos</a>
+<a href="servicios.html">Servicios</a>
+<a href="financiacion.html">Financiación</a>
+<a href="vende-tu-auto.html">Vendé tu auto</a>
+<a href="nosotros.html">Nosotros</a>
+<a href="testimonios.html">Opiniones</a>
+<a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+<a href="contacto.html">Contacto</a>
 
-.hero p{
-    font-size:20px;
-    margin-bottom:30px;
-}
+</nav>
 
-.btn{
-    display:inline-block;
-    background:#ff4fa3;
-    color:white;
-    padding:15px 35px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-}
+</header>
 
-.destacados{
-    padding:60px 8%;
-}
+<section class="hero">
 
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-    margin-top:30px;
-}
+<h2>Preguntas frecuentes</h2>
 
-.card{
-    background:#1b1b1b;
-    border-radius:15px;
-    overflow:hidden;
-    transition:.3s;
-}
+<p>
+Respondemos las consultas más habituales de nuestros clientes.
+</p>
 
-.card:hover{
-    transform:translateY(-8px);
-}
+</section>
 
-.card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
+<section class="destacados">
 
-.card h3,.card p,.card h4{
-    padding:10px 20px;
-}
+<div class="cards">
 
-.card h4{
-    color:#ff4fa3;
-}
+<div class="card">
+<h3>¿Aceptan permutas?</h3>
+<p>Sí, recibimos tu vehículo como parte de pago, sujeto a evaluación.</p>
+</div>
 
-footer{
-    background:#000;
-    text-align:center;
-    padding:40px;
-    margin-top:50px;
-}
+<div class="card">
+<h3>¿Trabajan con financiación?</h3>
+<p>Sí, contamos con diferentes alternativas de financiación según cada caso.</p>
+</div>
+
+<div class="card">
+<h3>¿Realizan la transferencia?</h3>
+<p>Sí. Nos encargamos de la gestoría y del proceso de transferencia.</p>
+</div>
+
+<div class="card">
+<h3>¿Puedo dejar mi auto en consignación?</h3>
+<p>Sí. Publicamos, mostramos y gestionamos la venta de tu vehículo.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Pink Automotores<br>
+Juan B. Justo 1870 - Plottier<br>
+WhatsApp: 299 600-1634
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
