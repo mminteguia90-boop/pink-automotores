@@ -192,3 +192,32 @@ footer {
     background: white;
     color: #ff1493;
 }
+.servicios {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.lista-servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lista-servicios div {
+    background: #151515;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,20,147,0.25);
+}
+
+.lista-servicios h3 {
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+.lista-servicios p {
+    color: #ddd;
+    line-height: 1.5;
+}
